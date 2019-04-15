@@ -4,7 +4,7 @@ function x = structcat(y, param)
 % Px...xK, and returns the data in those fields concatenated into a
 % Px...XKxMx...N array.
 %
-% Author: Eelke Spaak, 2018.
+% Copyright Eelke Spaak, 2018. Licensed under Apache License 2.0.
 
 siz1 = size(y);
 siz2 = size(y(1).(param));

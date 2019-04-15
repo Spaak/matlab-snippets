@@ -23,7 +23,7 @@ function myqsub(funname, reqstring, varargin)
 % working directory is the one you are in when calling myqsub, and log files
 % are stored in <HOME>/.matlabjobs.
 %
-% Author: Eelke Spaak, 2018.
+% Copyright Eelke Spaak, 2018. Licensed under Apache License 2.0.
 
 % which matlab executable too use for the jobs
 matlabcmd = sprintf('%s/bin/matlab -nodesktop -nosplash', getenv('MATLAB'));
